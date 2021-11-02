@@ -36,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Scaffold(
-        resizeToAvoidBottomPadding: false,
+        resizeToAvoidBottomInset: false,
         body: WebView(
           onWebViewCreated: (controller) {
             controller.loadUrl('https://www.google.com');
